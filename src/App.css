@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.rootparent {
+  height: 100vh;
+  width: 100vw;
+}
+
+.rootparent div {
+  position: relative;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: aqua;
+  position: absolute;
+}
